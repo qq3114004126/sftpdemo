@@ -1,0 +1,25 @@
+
+
+
+sftp-client:
+  multiple: true
+  clients:
+    client1:
+      # 主机ip
+      host: 192.168.2.101
+      # 端口号
+      port: 22
+      # 用户名
+      username: root
+      # 密码
+      password: root
+    client2:
+      # 主机ip
+      host: 192.168.2.102
+      # 端口号
+      port: 22
+      # 用户名
+      username: root
+      # 密码
+      password: root
+
